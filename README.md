@@ -9,6 +9,7 @@ A collection of beginner-friendly console-based games built using C++, developed
  Console-based interactive games
  Replay and restart functionality
  Beginner-friendly logic implementation
+ 
  1. Tic Tac Toe
  Run
 g++ tictactoe.cpp -o tictactoe
@@ -25,7 +26,6 @@ X | X | X
   | O |  
 ---------
   | O |  
-
 Player X Wins!
 
  2. Snake Game
@@ -33,7 +33,7 @@ Run
 g++ snakegame.cpp -o snakegame
 snakegame
 Features
-Move snake using W/A/S/D keys
+Move the snake using W/A/S/D keys
 Eat food (*) to increase score
 Game over on wall/self collision
 Real-time score tracking
